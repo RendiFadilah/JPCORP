@@ -11,7 +11,7 @@
         <div class="sidebar-brand-icon">
           <i class="fas fa-store"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">JPONE-MALL</div>
+        <div class="sidebar-brand-text mx-3">Kantin Sehat</div>
       </a>
 
       <!-- Divider -->
@@ -33,61 +33,22 @@
       </div>
 
      
-     <li class="nav-item">
+     <li class="nav-item">  
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseRetail" aria-expanded="true" aria-controls="collapseRetail">  
             <i class="fas fa-fw-cog"></i>
-            <span>JP ONE RETAIL</span>
+            <span>MENU KANTIN SEHAT</span>
         </a>
         <div id="collapseRetail" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">RETAIL CATEGORY</h6>
-                <a class="collapse-item" href="#">GROCERS</a>
-                <a class="collapse-item" href="#">MULTI MART</a>
-                <a class="collapse-item" href="#">BOOK STORE</a>
-            </div>
-        </div>
-     </li>
-     <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseService"  aria-controls="collapseutilities">  
-            <i class="fas fa-fw-cog"></i>
-            <span>JP ONE SERVICE</span>
-        </a>
-        <div id="collapseService" class="collapse" aria-labelledby="headingService" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">SERVICE CATEGORY</h6>
-                <a class="collapse-item" href="#">TOUR & TRAVEL</a>
-                <a class="collapse-item" href="#">OUTBOUND</a>
-                <a class="collapse-item" href="#">AMT FOR STUDENT</a>
+                <h6 class="collapse-header">MENU KANTIN SEHAT</h6>
+                <a class="collapse-item" href="#">Ayam Geprek</a>
+                <a class="collapse-item" href="#">Soto Ayam</a>
+                <a class="collapse-item" href="#">Nasi Goreng</a>
             </div>
         </div>
      </li>
 
-     <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFinance"  aria-controls="collapseFinance">  
-            <i class="fas fa-fw-cog"></i>
-            <span>JP ONE FINANCE</span>
-        </a>
-        <div id="collapseFinance" class="collapse" aria-labelledby="headingSevice" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">FINANCE CATEGORY</h6>
-                <a class="collapse-item" href="#">KOPERASI</a>
-                <a class="collapse-item" href="#">SPP</a>
-            </div>
-        </div>
-     </li>
 
-     <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEdupreneur"  aria-controls="collapseEdupreneur">  
-            <i class="fas fa-fw-cog"></i>
-            <span>JP ONE EDUPRENEUR</span>
-        </a>
-        <div id="collapseEdupreneur" class="collapse" aria-labelledby="headingEdupreneur" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">EDUPRENEUR CATEGORY</h6>
-                <a class="collapse-item" href="#">TRAINER FOR OUTBOUND</a>
-            </div>
-        </div>
-     </li>
 
     
 
@@ -173,7 +134,7 @@
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Rendi Fadilah</span>
-                <img class="img-profile rounded-circle" src="assets/img/rendi.jpg">
+                <img class="img-profile rounded-circle" src="<?php echo base_url() ?>assets/img/rendi.jpg">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">

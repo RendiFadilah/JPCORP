@@ -37,9 +37,9 @@
           <span>Data Barang</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('admin/invoices') ?>">
+        <a class="nav-link" href="<?php echo base_url('admin/invoice') ?>">
           <i class="fas fa-fw fa-file-invoice"></i>
-          <span>Invoices</span></a>
+          <span>Invoice</span></a>
       </li>
 
    
@@ -114,7 +114,7 @@
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">Rendi Fadilah</span>
-                <img class="img-profile rounded-circle" src="assets/img/rendi.jpg">
+                <img class="img-profile rounded-circle" src="<?php echo base_url()?>assets/img/rendi.jpg">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
