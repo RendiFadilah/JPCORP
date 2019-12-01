@@ -4,13 +4,13 @@ class Model_invoice extends CI_Model{
     public function index(){
          $nama              = $this->input->post('nama');
          $kelas             = $this->input->post('kelas');
-         $no_telp           = $this->input->post('no_telp');
+         $no_hp           = $this->input->post('no_hp');
     
 
          $invoice = array(
              'nama'             => $nama,
              'kelas'            => $kelas,
-             'no_telp'          => $no_telp
+             'no_hp'          => $no_hp
 
         );
         $this->db->insert('invoice_admin', $invoice);
@@ -57,4 +57,6 @@ class Model_invoice extends CI_Model{
             return false;
         }
     }
+
+    
 }

@@ -17,7 +17,7 @@
             <td><?php echo $inv->id ?></td>
             <td><?php echo $inv->nama ?></td>
             <td><?php echo $inv->kelas ?></td>
-            <td><?php echo $inv->no_telp ?></td>
+            <td><?php echo $inv->no_hp ?></td>
             <td><?php echo anchor('admin/invoice/detail/'.$inv->id, '<div class="btn btn-sm btn-primary">Detail</div>') ?></td>
         </tr>
 

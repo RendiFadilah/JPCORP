@@ -13,7 +13,7 @@
                  ?>
             </div><br><br>
 
-            <h3>Input Alamat Pengiriman dan Pembayaran</h3>
+            <h3>Form Pembayaran</h3>
             
             <form method="post" action="<?php echo base_url('dashboard/proses_pesanan'); ?> ">
                 <div class="form-group">
@@ -26,7 +26,7 @@
                 </div>
                 <div class="form-group">
                     <label for="">No. Telepon</label>
-                    <input type="text" class="form-control" name="no_telp" placeholder="Nomor Telpon Anda">
+                    <input type="text" class="form-control" name="no_hp" placeholder="Nomor Telpon Anda">
                 </div>
 
                 <button type="submit" class="btn btn-sm btn-primary mb-3">Pesan</button>
