@@ -39,4 +39,5 @@
     </table>
 
     <a href="<?php echo base_url('admin/invoice/index') ?>"><div class="btn btn-sm btn-primary">Kembali</div></a>
+    <a class="btn btn-sm btn-danger" href="#"><i class="fa fa-print"></i> Print</a>
 </div>

@@ -4,7 +4,7 @@
     <table class="table table-bordered table-striped table-hover">
         <tr>
             <th>NO</th>
-            <th>Nama Pemesanan</th>
+            <th>Nama Pesanan</th>
             <th>Jumlah</th>
             <th>Harga</th>
             <th>Sub-Total</th>

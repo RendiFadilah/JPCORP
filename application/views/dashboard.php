@@ -7,7 +7,7 @@
          </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="<?php echo base_url('assets/img/slider1.jpg') ?>" class="d-block w-100" alt="...">
+            <img src="<?php echo base_url('assets/img/iklan1.jpg') ?>"  class="d-block w-100" height="400px" alt="...">
     </div>
         <div class="carousel-item">
             <img src="<?php echo base_url('assets/img/slider2.jpg') ?>" class="d-block w-100" alt="...">
